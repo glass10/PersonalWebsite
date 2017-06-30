@@ -1,5 +1,5 @@
 body{
-    background-image: url("background-3.png");
+    background-image: url("background-4.png");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -8,6 +8,7 @@ body{
     width: 100%;
     color: white;
     font-family: 'Hammersmith One', sans-serif;
+    /*background-attachment: fixed;*/
 }
 
 .Header{
