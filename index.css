@@ -23,12 +23,66 @@ body{
 
 .bio{
     height: 15%;
-    width: 75%;
-    background-color: #276060;
-    margin-left: 12.5%;
-    opacity: 0.4;
+    width: 70%;
+    background-color: rgba(39, 96, 96, 0.2);
+    margin-left: 15%;
+    border-radius: 15px;
+    margin-bottom: 2%;
 }
 
-.bio h2{
-    opacity: 1 !important;
+.bio:hover{
+    border-style: solid;
+    border-color: white;
+    transition: 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+.connectButtons{
+    height: 15%;
+    width: 70%;
+    background-color: rgba(39, 96, 96, 0.2);
+    margin-left: 15%;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+
+.mainContent{
+    text-align: center;
+}
+
+.myWork{
+    height: 15%;
+    width: 70%;
+    background-color: rgba(39, 96, 96, 0.2);
+    margin-left: 15%;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+
+.mySkills{
+    height: 15%;
+    width: 70%;
+    background-color: rgba(39, 96, 96, 0.2);
+    margin-left: 15%;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+
+.contactMe{
+    height: 15%;
+    width: 70%;
+    background-color: rgba(39, 96, 96, 0.2);
+    margin-left: 15%;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+
+.footer{
+    height: 15%;
+    width: 70%;
+    background-color: rgba(39, 96, 96, 0.2);
+    margin-left: 15%;
+    border-radius: 15px;
+    margin-bottom: 2%;
+    text-align: center;
 }
