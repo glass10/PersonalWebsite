@@ -9,14 +9,15 @@
         <link rel="stylesheet" href="index.css">
         <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
         <script src="https://use.fontawesome.com/6b2d83f55a.js"></script>
+        <script src="index.js"></script>
         
     </head>
 
     <ul class="menu menu-hover-lines">
-        <li class="active"><a href="#bio">Bio</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li id="bioButton" class="active"><a onClick="NavActive('bioButton')" href="#bio">Bio</a></li>
+        <li id="workButton" class=""><a onClick="NavActive('workButton')" href="#work">Work</a></li>
+        <li id="skillsButton" class=""><a onClick="NavActive('skillsButton')" href="#skills">Skills</a></li>
+        <li id="contactButton"class=""><a onClick="NavActive('contactButton')" href="#contact">Contact</a></li>
     </ul>
     <body>
         <div id="bio" class="Header">
