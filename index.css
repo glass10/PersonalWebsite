@@ -38,13 +38,43 @@ body{
     border-radius: 15px;
 }
 
-.connectButtons{
-    height: 15%;
-    width: 70%;
-    background-color: rgba(39, 96, 96, 0.2);
-    margin-left: 15%;
-    border-radius: 15px;
-    margin-bottom: 2%;
+.social {
+  margin-right: .25rem;
+}
+
+.social.resume {
+  background-color: #bb0000;
+  color: #fefefe;
+}
+
+.social.resume:hover, .social.resume:focus {
+  background-color: #960000;
+  color: #fefefe;
+}
+
+.social.linkedin {
+  background-color: #007bb5;
+  color: #fefefe;
+}
+
+.social.linkedin:hover, .social.linkedin:focus {
+  background-color: #006291;
+  color: #fefefe;
+}
+
+.social.github {
+  background-color: #3d3d3d;
+  color: #fefefe;
+}
+
+.social.github:hover, .social.github:focus {
+  background-color: #2e2e2e;
+  color: #fefefe;
+}
+
+.social > .fa {
+  color: #fefefe;
+  margin-right: .25rem;
 }
 
 .mainContent{
