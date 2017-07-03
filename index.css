@@ -13,6 +13,7 @@ body{
 
 .Header{
     margin-top: 10%;
+    margin-bottom: 10%;
     text-align: center;
     align-content: center;
 }
@@ -23,12 +24,13 @@ body{
 }
 
 .bio{
-    height: 15%;
+    /*height: 15%;*/
+    padding: 1%;
     width: 70%;
     background-color: rgba(39, 96, 96, 0.2);
     margin-left: 15%;
     border-radius: 15px;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .bio:hover{
@@ -36,7 +38,7 @@ body{
     border-color: white;
     transition: 0.3s ease-in-out;
     border-radius: 15px;
-}
+}r
 
 .social {
   margin-right: .25rem;
@@ -82,30 +84,35 @@ body{
 }
 
 .myWork{
+    width: 90%;
     height: 15%;
-    width: 70%;
     background-color: rgba(39, 96, 96, 0.2);
-    margin-left: 15%;
+    margin-left: 5%;
     border-radius: 15px;
     margin-bottom: 2%;
 }
 
 .mySkills{
     height: 15%;
-    width: 70%;
+    width: 90%;
     background-color: rgba(39, 96, 96, 0.2);
-    margin-left: 15%;
+    margin-left: 5%;
     border-radius: 15px;
     margin-bottom: 2%;
 }
 
 .contactMe{
-    height: 15%;
-    width: 70%;
+    /*height: 15%;*/
+    width: 90%;
     background-color: rgba(39, 96, 96, 0.2);
-    margin-left: 15%;
+    margin-left: 5%;
     border-radius: 15px;
     margin-bottom: 2%;
+}
+
+.contact-form {
+  padding: 1rem;
+  border-radius: 0;
 }
 
 .footer{
@@ -179,7 +186,6 @@ body{
   width: 100%;
 }
 
-
 .social-footer {
   padding: 1rem;
   background: rgba(241, 247, 247, 0.3);
@@ -208,5 +214,7 @@ body{
   color: rgba(11, 55, 51, 0.8);
   transition: color 0.3s ease-in;
 }
+
+
 
 
