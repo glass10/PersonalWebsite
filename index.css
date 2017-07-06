@@ -85,11 +85,35 @@ body{
 
 .myWork{
     width: 90%;
-    height: 15%;
     background-color: rgba(39, 96, 96, 0.2);
     margin-left: 5%;
     border-radius: 15px;
     margin-bottom: 2%;
+    display:table;
+}
+
+.workImgDiv{
+  width: 33%;
+  margin: 0%;
+  display:table-cell;
+  width:33.33vw;
+
+  border-style: solid;
+  border-color:rgba(255, 255, 255, 0.75);
+  border-radius: 10%;
+}
+
+.workImgDiv:hover{
+  background: rgba(255, 255, 255, 0.5);
+  transition: 0.3s ease-in-out;
+  -webkit-transform: scale(1.10);
+  -webkit-transform-origin: 50% 50%;
+  /*filter: blur(3px);*/
+}
+
+.workImgDiv:hover .workImg{
+  width: 50%;
+  vertical-align: top;
 }
 
 .mySkills{
