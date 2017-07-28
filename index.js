@@ -12,3 +12,10 @@ NavActive = function(id){
         
     }
 }
+
+jQuery(document).ready(function() {
+    jQuery('.item').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeIn',
+        offset: 100,
+       });
+});

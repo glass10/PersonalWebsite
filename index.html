@@ -10,7 +10,11 @@
         <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
         <script src="https://use.fontawesome.com/6b2d83f55a.js"></script>
         <link rel="stylesheet" href="./font-mfizz-2.4.1/font-mfizz.css">
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="viewportchecker.js"></script>
         <script src="index.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="animate.css" />
         
     </head>
 
@@ -22,8 +26,8 @@
     </ul>
     <body>
         <div id="bio" class="Header">
-            <h1 class="headName">Cameron Glass</h1>
-            <div class="bio">
+            <h1 class="headName item">Cameron Glass</h1>
+            <div class="bio item">
                 <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
@@ -31,7 +35,7 @@
                     sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
                     laborum.</h5>
             </div>
-            <div class="connectButtons">
+            <div class="connectButtons item">
                 <a href="Resume.pdf" target="_blank" class="button social resume">
                     <i class="fa fa-file-text" aria-hidden="true"></i> Resume 
                 </a>  
@@ -44,12 +48,12 @@
             </div>
         </div>
         <div class="mainContent">
-            <div id="work" class="myWork">
+            <div id="work" class="myWork item">
                 <h2 class="sectionTitle">My Work<br></h2>
                 <div class="workTable">
                     <div class="row">
-                        <div class="workImgDiv">
-                            <img id="trinity" class="workImg" src="TrinityLogo.png"></img>
+                        <div id="trinity" class="workImgDiv item">
+                            <img id="trinityPic" class="workImg" src="TrinityLogo.png"></img>
                             <div class="workInfo">
                                 <h3 class="cardTitle">Trinity Music</h3>
                                 <h4 class="cardText">An Amazon Alexa skill that uses the TuneFind API to provide song information for Movies, TV Shows, and Artists</h4>
@@ -61,8 +65,8 @@
                                 </a> 
                             </div>
                         </div>
-                        <div class="workImgDiv">
-                            <img id="pebblePush" class="workImg" src="PebblePush.png"></img>
+                        <div id="pebblePush" class="workImgDiv item">
+                            <img id="pebblePushPic" class="workImg" src="PebblePush.png"></img>
                             <div class="workInfo">
                                 <h3 class="cardTitle">Pebble Push</h3></h3>
                                 <h4 class="cardText">An Amazon Alexa skill that pushes reminders to your Pebble smartwatch, either at a certain time or in a few hours</h4>
@@ -74,8 +78,8 @@
                                 </a> 
                             </div>
                         </div>
-                        <div class="workImgDiv">
-                            <img id="purdueFood" class="workImg" src="PurdueFoodLarge.png"></img>
+                        <div id="purdueFood" class="workImgDiv item">
+                            <img id="purdueFoodPic" class="workImg" src="PurdueFoodLarge.png"></img>
                             <div class="workInfo">
                                 <h3 class="cardTitle">Purdue Food</h3>
                                 <h4 class="cardText">An Amazon Alexa skill that tells you the food options you have at Purdue Dining Courts, including vegetarian filtering</h4>
@@ -93,33 +97,33 @@
                 </div>
             </div>
 
-            <div id="skills" class="mySkills">
+            <div id="skills" class="mySkills item">
                 <h2 class="sectionTitle">My Skills</h2>
                 <ul class="bar-graph">
-                    <li class="bar primary" style="height: 90%;" title="HTML">
+                    <li class="bar primary item" style="height: 90%;" title="HTML">
                         <div class="percent"><i class="icon-html5-alt"></i></div>
                         <div class="description">HTML</div>
                     </li>
-                    <li class="bar secondary" style="height: 70%;" title="CSS">
+                    <li class="bar secondary item" style="height: 70%;" title="CSS">
                         <div class="percent"><i class="icon-css3-alt"></i></div>
                         <div class="description">CSS</div>
                     </li>
-                    <li class="bar success" style="height: 85%;" title="JavaScript">
+                    <li class="bar success item" style="height: 85%;" title="JavaScript">
                         <div class="percent"><i class="icon-javascript-alt"></i></div>
                         <div class="description">JavaScript</div>
                     </li>
-                    <li class="bar warning" style="height: 80%;" title="Java">
+                    <li class="bar warning item" style="height: 80%;" title="Java">
                         <div class="percent"><i class="icon-java-bold"></i></div>
                         <div class="description">Java</div>
                     </li>
-                    <li class="bar alert" style="height: 50%;" title="C/C++">
+                    <li class="bar alert item" style="height: 50%;" title="C/C++">
                         <div class="percent"><i class="icon-c"></i></div>
                         <div class="description">C/C++</div>
                     </li>
                 </ul>
             </div>
-            <div id="contact" class="contactMe">
-                <form class="contact-form" action="mailto:glass10@purdue.edu" method="post" enctype="text/plain">
+            <div id="contact" class="contactMe item">
+                <form class="contact-form" action="mailto:glass10@purdue.edu" method="item" enctype="text/plain">
                     <h4 class="text-center">Contact Me</h4>
                     <label>Name
                         <input type="text" placeholder="First and Last">
@@ -138,7 +142,7 @@
             </div>
         </div>
 
-        <footer class="social-footer">
+        <footer class="social-footer item">
             <div class="social-footer-left">
                 <span>Custom Coded by Cameron Glass</span>
             </div>
