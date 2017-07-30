@@ -32,6 +32,7 @@ body{
     margin-left: 15%;
     border-radius: 15px;
     margin-bottom: 1%;
+    animation-delay: 0.2s;
 }
 
 .bio h5{
@@ -52,6 +53,7 @@ body{
 .social.resume {
   background-color: #bb0000;
   color: #fefefe;
+  animation-delay: 0.4s;
 }
 
 .social.resume:hover, .social.resume:focus {
@@ -62,6 +64,7 @@ body{
 .social.linkedin {
   background-color: #007bb5;
   color: #fefefe;
+  animation-delay: 0.6s;
 }
 
 .social.linkedin:hover, .social.linkedin:focus {
@@ -72,6 +75,7 @@ body{
 .social.github {
   background-color: #3d3d3d;
   color: #fefefe;
+  animation-delay: 0.8s;
 }
 
 .social.github:hover, .social.github:focus {
@@ -293,7 +297,6 @@ body{
 }
 
 .contactMe{
-    /*height: 15%;*/
     width: 90%;
     background-color: rgba(39, 96, 96, 0.2);
     margin-left: 5%;
